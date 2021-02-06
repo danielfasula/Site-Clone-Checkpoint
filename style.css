@@ -1,0 +1,52 @@
+body{
+    font-family: 'Pangolin', cursive;
+}
+
+.joker {
+    background-image: url('thejoker.jpg');
+    background-size: cover;
+}
+
+.truth {
+    background-image: url('Truth.jpg');
+    background-size: cover;
+}
+
+.dark-arts {
+    background-image: url('darkarts.jpg');
+    background-size: cover;
+}
+
+.theme {
+    background-color: #A51559;
+}
+
+.btn {
+    background-color: #A51559;
+}
+
+.bg-image {
+    background-image: url("ddd.jpg");
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .checkmark {
+        justify-content: center;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .stay-here {
+        position: relative;
+    }
+    .move-it {
+        position: absolute;
+        bottom: -50px;
+        right: -20px;
+    }
+    .checkmark {
+        margin-top: auto;
+    }
+}
