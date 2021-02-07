@@ -2,6 +2,9 @@ body{
     font-family: 'Pangolin', cursive;
 }
 
+footer {
+}
+
 .joker {
     background-image: url('thejoker.jpg');
     background-size: cover;
